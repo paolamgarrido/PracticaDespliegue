@@ -1,0 +1,9 @@
+{
+    "name": "react-express-monolito",
+    "version": "1.0.0",
+    "scripts": {
+      "build:client": "cd mi-aplicacion-react && npm run build",
+      "start:server": "cd server && npm start",
+      "deploy": "npm run build:client && npm run start:server"
+    }
+  }
